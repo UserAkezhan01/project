@@ -1,0 +1,84 @@
+body {
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 80px;
+  background-color: red;
+}
+
+.btns {
+  width: 60px;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.blocks {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  background-color: darkcyan;
+  margin-right: 10px;
+}
+
+.black {
+  width: 200px;
+  background-color: purple;
+  margin: 20px 0;
+  color: white;
+}
+
+button {
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  background: darkcyan;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+a {
+  font-size: 20px;
+}
+
+.overlay {
+  width: 200px;
+  height: 100px;
+  background: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
